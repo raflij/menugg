@@ -129,7 +129,7 @@ Terima kasih`;
     };
 
     const sendWA = () => {
-        const phoneNumber = "+6281225335284";
+        const phoneNumber = "+6285829187525";
         const encodedMessage = encodeURIComponent(messageWA);
         const link = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
         window.open(link);
@@ -364,14 +364,14 @@ Terima kasih`;
              </h1>  
         </div>
         </div>  
-        <!-- <div class="absolute left-0 right-0 bottom-4 px-[1em] flex justify-center items-center">
+        <div class="absolute left-0 right-0 bottom-4 px-[1em] flex justify-center items-center">
             <button 
             on:click={sendWA}
             class="rounded-xl py-2 px-4 bg-green-500 flex items-center text-white font-bold">
                 <span class="mr-1">
                     <Icon icon="ic:baseline-whatsapp" width="24" height="24" />
                 </span> Kirim ke Whatsapp</button>
-        </div> -->
+        </div>
     {/if}
 </Modal>
 
